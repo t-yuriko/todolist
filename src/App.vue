@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <h1>TODO</h1>
+
     <input v-model="text">
 
     <button @click="addTodo()">決定</button>
